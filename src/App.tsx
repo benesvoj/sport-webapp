@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import React from 'react'
+import logo from './logo.svg'
+import styled from 'styled-components'
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <Div_App>
+      <Header_App>
+        <Img_logo src={logo} alt='logo' />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <A_App href='https://reactjs.org' target='_blank' rel='noopener noreferrer'>
           Learn React
-        </a>
-      </header>
-    </div>
-  );
+        </A_App>
+      </Header_App>
+    </Div_App>
+  )
 }
 
-export default App;
+const Div_App = styled.div`
+  text-align: center;
+`
+
+const Header_App = styled.header`
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+`
+const Img_logo = styled.img`
+  height: 40vmin;
+  pointer-events: none;
+`
+const A_App = styled.a`
+  color: #61dafb;
+`
