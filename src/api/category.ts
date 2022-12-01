@@ -1,0 +1,68 @@
+const category = [
+  {
+    id: 1,
+    name: 'Mladsi zacky',
+    nameShort: 'Ml.zacky',
+    minAge: 6,
+    maxAge: 12,
+    sex: 'women',
+  },
+  {
+    id: 2,
+    name: 'Starsi zacky',
+    nameShort: 'St.zacky',
+    minAge: 12,
+    maxAge: 15,
+    sex: 'women',
+  },
+  {
+    id: 3,
+    name: 'Dorostenky',
+    nameShort: 'Dky',
+    minAge: 15,
+    maxAge: 18,
+    sex: 'women',
+  },
+  {
+    id: 4,
+    name: 'Zeny',
+    nameShort: 'Z',
+    minAge: 18,
+    maxAge: 99,
+    sex: 'women',
+  },
+  {
+    id: 5,
+    name: 'Mladsi zaci',
+    nameShort: 'Ml.zaci',
+    minAge: 6,
+    maxAge: 12,
+    sex: 'men',
+  },
+  {
+    id: 6,
+    name: 'Starsi zaci',
+    nameShort: 'St.zaci',
+    minAge: 12,
+    maxAge: 15,
+    sex: 'men',
+  },
+  {
+    id: 7,
+    name: 'Dorostenci',
+    nameShort: 'Dci',
+    minAge: 15,
+    maxAge: 18,
+    sex: 'men',
+  },
+  {
+    id: 8,
+    name: 'Muzi',
+    nameShort: 'M',
+    minAge: 18,
+    maxAge: 99,
+    sex: 'men',
+  },
+]
+
+export const getCategories = () => category

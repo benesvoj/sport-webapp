@@ -5,7 +5,8 @@ import staravesLogo from '../images/clubs/staraves.png'
 import studenkaLogo from '../images/clubs/studenka.png'
 import svinovLogo from '../images/clubs/svinov.svg'
 import vitkoviceLogo from '../images/clubs/vitkovice.png'
-export const clubs = [
+
+const clubs = [
   {
     id: 1,
     order: 1,
@@ -13,6 +14,7 @@ export const clubs = [
     logo: svinovLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 2,
@@ -21,6 +23,7 @@ export const clubs = [
     logo: studenkaLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 3,
@@ -29,12 +32,14 @@ export const clubs = [
     logo: pustejovLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 4,
     order: 4,
     name: 'SSK Vitkovice',
     logo: vitkoviceLogo,
+    area: 1,
   },
   {
     id: 5,
@@ -43,6 +48,7 @@ export const clubs = [
     logo: staravesLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 6,
@@ -51,6 +57,7 @@ export const clubs = [
     logo: rokytniceLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 7,
@@ -59,6 +66,7 @@ export const clubs = [
     logo: missingLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 8,
@@ -67,6 +75,7 @@ export const clubs = [
     logo: missingLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 9,
@@ -75,6 +84,7 @@ export const clubs = [
     logo: missingLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 1,
   },
   {
     id: 10,
@@ -83,6 +93,7 @@ export const clubs = [
     logo: missingLogo,
     membersCount: 120,
     teamCount: 8,
+    area: 2,
   },
 ]
 

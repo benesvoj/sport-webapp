@@ -94,7 +94,7 @@ export const Layout = ({ children }: { children?: ReactNode }) => {
           {children}
         </Box>
 
-        <Box flex={1} paddingTop={4} paddingLeft={80} paddingRight={10}>
+        <Box flex={1} paddingTop={4} paddingLeft={80} paddingRight={10} h={'500px'}>
           <Outlet />
         </Box>
       </Box>

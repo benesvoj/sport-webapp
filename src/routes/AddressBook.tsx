@@ -82,8 +82,8 @@ export const AddressBook = () => {
                         <Image src={club.logo} h={25} w={25} />
                       </Td>
                       <Td>{club.name}</Td>
-                      <Td>{club.membersCount}</Td>
-                      <Td>{club.teamCount}</Td>
+                      <Td>{club.membersCount === undefined ? '-' : club.membersCount}</Td>
+                      <Td>{club.teamCount === undefined ? '-' : club.teamCount}</Td>
                       <Td>
                         <Link href=''>Detail</Link>
                       </Td>
